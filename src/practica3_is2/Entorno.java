@@ -208,7 +208,6 @@ public class Entorno implements Serializable{
         if(animales.isEmpty()){
             JOptionPane.showMessageDialog(null, "Se han extinguido todos los seres vivos", "Alerta", JOptionPane.WARNING_MESSAGE);
             extinguido= true;
-            mostrarEstado();
         }
         try{
             ventana_estado.actualizar(this);
