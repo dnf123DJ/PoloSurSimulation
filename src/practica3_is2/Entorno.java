@@ -239,9 +239,10 @@ public class Entorno implements Serializable{
         public void windowClosing(java.awt.event.WindowEvent evt) {
             System.out.println("hola, me cierro");
             
-            
+            ventana_estado = null;
             FileOutputStream fos = null;
             ObjectOutputStream salida = null;
+            
 
             try {
                 //Se crea el fichero
